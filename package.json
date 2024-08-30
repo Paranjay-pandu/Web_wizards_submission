@@ -1,0 +1,16 @@
+{
+  "name": "web_wizard",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "app": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vite": "^5.4.2"
+  }
+}

@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cursor">
+        <!-- this is the cursor which u see on the screen  -->
+    </div>
+
+
+    <!-- this is the loader which comes before the website opens -->
+    <div id="loader">
+        <video autoplay muted loop src="https://videos.pexels.com/video-files/2383631/2383631-hd_1920_1080_24fps.mp4"></video>
+    </div>
+    
+    <!-- description of the plants life is give in a zig-zag format
+    page2 represents image in the left
+    and page3 represents image in the right using the flex-direction window -->
+    <div id="main">
+        <div id="page1">
+            <h1>HI i am a <span>plant.</span></h1>
+            <h2>Wanna know about my life?.</h2>
+            <p>Me tooo.. <br> join me and scroll the page</p>
+        </div>
+        <div id="page2">
+            <img alt="no image is being displayed" src="https://images.unsplash.com/photo-1563760836797-bf5d5f9d2243?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <div id="right">
+                <h1>I first start growing as a <span>seed</span> <br>The pic in the <span>right</span> is me. <br>Yep that's me cool right. </h1>
+            </div>
+        </div>
+        <div id="page3">
+            <img alt="no image is being displayed" src="https://plus.unsplash.com/premium_photo-1673292293042-cafd9c8a3ab3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <div id="right">
+                <h1>Then somehow i grow with the assistance of <br><span>MOTHER EARTH.</span></h1>
+            </div>
+        </div>
+        <div id="page2">
+            <img alt="no image is being displayed" src="https://images.unsplash.com/photo-1700412222589-471db05a287b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <div id="right"><h1>Then comes by indirect friends <span>INSECTS.</span> <br>who help my species to grow but <br>some of them aren't good.</h1></div>
+        </div>
+        <div id="page3">
+            <img alt="no image is being displayed" src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <div id="right"><h1>Now look at me i am a fully grown <span>tree.</span> <br> there's a saying about me <i><span>"To be without trees would, in the most literal way, to be without our roots"</span></i></h1></div>
+        </div>
+        <div id="page3" class="end">
+            <h1>THE END</h1>
+        </div>
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
