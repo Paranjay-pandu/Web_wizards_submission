@@ -16,12 +16,11 @@ document.addEventListener("mousemove", (dets)=>{
 document.addEventListener("DOMContentLoaded", function(){
     const gs = gsap.timeline()
     gs.to("#loader video", {
-        delay: 1,
+        delay: 2,
         y: "-100%",
-        display: "none",
         opacity: 0,
     })
     gs.to("#loader", {
-        display: "none"
+        opacity: 0,
     })
 })
